@@ -21,7 +21,6 @@
     background-size: 250vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     color: var(--color-primario);
 }
 
@@ -60,4 +59,5 @@
     position: relative;
     height: 80vh;
     top: 45em;
+    background-attachment: fixed;
   }
