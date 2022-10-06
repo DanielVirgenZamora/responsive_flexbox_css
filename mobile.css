@@ -56,8 +56,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    position: relative;
+    position: absolute;
+    width: 95%;
     height: 80vh;
     top: 45em;
-    background-attachment: fixed;
   }
