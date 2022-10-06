@@ -11,14 +11,12 @@
   }
   
   body {
-    height: 200vh;
+    height: 350vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(./background.png);
-    background-position-x: left;
-    background-size: 250vh;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-primario);
@@ -29,13 +27,13 @@
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 10em;
+    top: 2em;
     margin-bottom: 2em;
   }
 
   .contenedor {
     width: 100%;
-    height: 200vh;
+    height: 350vh;
     display: flex;
     justify-content: space-evenly;
     transition: all .01s ease-out;
@@ -47,7 +45,7 @@
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 22em;
+    top: 15em;
     left: 6em;
   }
 
@@ -56,6 +54,12 @@
     align-items: center;
     text-align: center;
     position: relative;
-    height: 80vh;
-    top: 45em;
+    height: 170vh;
+    top: 30em;
   }
+  
+  .form__iconos:hover {
+    background-color: #6B5AC9;
+    cursor: pointer;
+  }
+  
