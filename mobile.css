@@ -21,6 +21,7 @@
     background-size: 250vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: var(--color-primario);
 }
 
